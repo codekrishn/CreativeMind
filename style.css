@@ -1134,15 +1134,25 @@ body {
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     .nav-menu {
         display: none;
     }
 
+    .logo a {
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: #0066ff;
+    padding: 3.3px 9px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
     .hero-content h1 {
     font-size: 1rem;
     font-weight: 100;
-    color: #2c3e50;
+    color: #de9725;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
