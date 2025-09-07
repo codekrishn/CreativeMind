@@ -1141,9 +1141,9 @@ body {
 
     .logo a {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background: #0066ff;
-    padding: 3.3px 9px;
+    padding: 1px 3px;
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
