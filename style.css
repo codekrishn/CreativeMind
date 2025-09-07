@@ -1157,7 +1157,7 @@ body {
 }
 
 .search-container input[type="search"] {
-    padding: 3px;
+    padding: 4px;
     margin: auto 0px 0px 0px;
     width: 119px;
     border: 1px solid #ccc;
