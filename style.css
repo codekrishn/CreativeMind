@@ -1157,7 +1157,7 @@ body {
 }
 
 .search-container input[type="search"] {
-    padding: 4px;
+    padding: 3px;
     margin: auto 0px 0px 0px;
     width: 119px;
     border: 1px solid #ccc;
@@ -1173,7 +1173,7 @@ body {
 }
 
 .search-container button {
-    padding: 4px 5px;
+    padding: 3.7px 5px;
     margin: auto 0px 0px 0px;
     background: #0066FF;
     color: white;
