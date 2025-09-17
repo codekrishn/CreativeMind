@@ -357,17 +357,13 @@ body {
     color: #666;
 }
 
-/* Latest Section */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
 
+
+
+/* Latest Section */
 body {
     background: #f3f6f9;
-    color: #333;
+    color: #6a1ad3;
     line-height: 1.6;
 }
 
@@ -393,28 +389,30 @@ body {
 
 .section-header .view-all {
     text-decoration: none;
-    color: #ff7b00;
+    color: #00ff62;
     font-weight: 500;
     font-size: 15px;
     transition: color 0.3s;
 }
 
 .section-header .view-all:hover {
-    color: #e66b00;
+    color: #eeff00;
 }
 
 /* ====== Grid Layout ====== */
 .stories-grid {
     display: grid;
-    grid-template-columns: 2fr 1.2fr;
-    gap: 25px;
+    grid-template-columns: 1fr 300px;
+    gap: 2px;
 }
 
 /* Featured Card (Left) */
 .story-card.featured {
-    background: #fff;
-    border-radius: 12px;
+    display: grid;
+    background: #ffffff;
     overflow: hidden;
+    width: 450px;
+    height: 565px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s;
 }
@@ -426,6 +424,7 @@ body {
 .story-card.featured img {
     width: 100%;
     height: 260px;
+    display: grid;
     object-fit: cover;
 }
 
@@ -443,21 +442,6 @@ body {
     font-size: 14px;
     color: #666;
     margin-bottom: 15px;
-}
-
-.see-more-btn {
-    background: #ff7b00;
-    color: #fff;
-    border: none;
-    padding: 6px 14px;
-    border-radius: 4px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.see-more-btn:hover {
-    background: #e66b00;
 }
 
 .story-meta1 {
@@ -522,6 +506,21 @@ body {
     margin-bottom: 5px;
 }
 
+.author {
+    display: grid;
+    padding-right: 50px;
+    margin-bottom: 34px;
+    background-color: #0066FF;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.date {
+    display: grid;
+    margin-right: 300px;
+    margin-top: -12px;
+}
+
 /* LifeStyle */
 .lifestyle {
     padding: 1rem 0;
@@ -577,26 +576,11 @@ body {
     height: 50%;
 }
 
-/* .story-content {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 5; Limits to 5 lines
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis; Adds ellipsis if content is cut off
-  margin-bottom: 10px;
-}
-
-.story-content.expanded {
-  -webkit-line-clamp: unset; Shows all lines when expanded
-  text-overflow: unset;
-} */
-
 .lifestyle-content {
     padding: 1.5rem;
     height: 40%;
     overflow: hidden;
     display: -webkit-box;
-    /* -webkit-line-clamp: 5; */
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     flex-direction: column;
@@ -612,19 +596,13 @@ body {
     cursor: pointer;
     font-weight: 500;
     transition: background 0.3s;
-    margin-top: 1px;
-    margin-left: 400px;
+    margin-top: 5px;
+    margin-left: 319px;
 }
 
 .see-more-btn:hover {
     background: #00ff62;
 }
-
-/* .story-content.expanded {
-    -webkit-line-clamp: unset;
-    text-overflow: unset;
-    height: auto;
-} */
 
 .lifestyle-card.featured .lifestyle-content {
     height: 50%;
@@ -763,7 +741,7 @@ body {
     justify-content: space-between;
 }
 
-.see-more-btn {
+/* .see-more-btn {
     background: #e67e22;
     color: white;
     border: none;
@@ -778,7 +756,7 @@ body {
 
 .see-more-btn:hover {
     background: #00ff62;
-}
+} */
 
 /* .story-content.expanded {
     -webkit-line-clamp: unset;
@@ -921,7 +899,7 @@ body {
     justify-content: space-between;
 }
 
-.see-more-btn {
+/* .see-more-btn {
     background: #e67e22;
     color: white;
     border: none;
@@ -936,7 +914,7 @@ body {
 
 .see-more-btn:hover {
     background: #00ff62;
-}
+} */
 
 /* .story-content.expanded {
     -webkit-line-clamp: unset;
