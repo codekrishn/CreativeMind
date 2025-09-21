@@ -349,6 +349,10 @@
     object-fit: cover;
 }
 
+.story-card1:hover {
+    transform: translateY(-10px);
+}
+
 .category-a {
     display: inline-block;
     padding: 5px 10px;
@@ -614,6 +618,10 @@
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
     object-fit: cover;
+}
+
+.health-card1:hover {
+    transform: translateY(-10px);
 }
 
 .category1 {
@@ -1004,6 +1012,10 @@
     object-fit: cover;
 }
 
+.lifestyle-card1:hover {
+    transform: translateY(-10px);
+}
+
 .category {
     display: inline-block;
     padding: 3px 165px;
@@ -1148,6 +1160,10 @@
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
     object-fit: cover;
+}
+
+.recipe-card1:hover {
+    transform: translateY(-10px);
 }
 
 .category1 {
