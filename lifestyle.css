@@ -298,24 +298,6 @@
     color: #000000;
 }
 
-.view-all {
-    float: right;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    font-weight: 500;
-    border: 2px solid #ffffff;
-    padding: 7px 14px;
-    border-radius: 10px;
-    margin-top: -73px;
-}
-
-.view-all:hover {
-    background-color: rgb(255, 255, 255);
-    color: #0066ff;
-    border: 2px solid #0066ff;
-}
-
 .lifestyle-grid {
     display: flex;
     padding: 30px;
@@ -464,6 +446,7 @@
 
 .lifestyle-card img {
     width: 139px;
+    height: 163px;
     border-top-left-radius: 14px;
     border-bottom-left-radius: 14px;
     object-fit: cover;

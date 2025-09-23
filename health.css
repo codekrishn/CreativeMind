@@ -283,7 +283,7 @@
 }
 
 /* Recipe */
-.recipe {
+.health {
     max-width: 1400px;
     height: 734px;
     margin: 0;
@@ -291,26 +291,26 @@
     background: linear-gradient(135deg, #0066ff 0%, #e9ecef 100%);
 }
 
-.recipe h2 {
+.health h2 {
     text-align: start;
     font-size: 36px;
     margin-bottom: 40px;
     color: #000000;
 }
 
-.recipe-grid {
+.health-grid {
     display: flex;
     padding: 30px;
     margin-top: 20px;
 }
 
-.recipe-container {
+.health-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.recipe-card1 {
+.health-card1 {
     position: static;
     background-color: #ffffff;
     border-radius: 14px;
@@ -323,7 +323,7 @@
     margin-right: 600px;
 }
 
-.recipe-card1 img {
+.health-card1 img {
     width: 523px;
     height: 300px;
     border-top-right-radius: 14px;
@@ -331,7 +331,7 @@
     object-fit: cover;
 }
 
-.recipe-card1:hover {
+.health-card1:hover {
     transform: translateY(-10px);
 }
 
@@ -353,39 +353,39 @@
     border: 2px solid #0066ff;
 }
 
-.recipe-content-big h3 {
+.health-content-big h3 {
     font-size: 30px;
     margin: 10px 0;
     line-height: 28px;
     color: #000000;
 }
 
-.recipe-content-big p {
+.health-content-big p {
     font-size: 19px;
     color: #5e5e5e;
     margin-bottom: 15px;
 }
 
-.recipe-content-big {
+.health-content-big {
     margin-top: 0px;
     padding: 14px;
 }
 
-.recipe-card:hover {
+.health-card:hover {
     transform: translateY(-10px);
 }
 
-.recipe-card .card-content {
+.health-card .card-content {
     padding: 14px;
 }
 
-.recipe-card .card-content h3 {
+.health-card .card-content h3 {
     font-size: 30px;
     margin-bottom: 10px;
     color: #2c3e50;
 }
 
-.recipe-card .card-content p {
+.health-card .card-content p {
     font-size: 16px;
     color: #7f8c8d;
     margin-bottom: 15px;
@@ -408,34 +408,34 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
-.recipe-meta1 {
+.health-meta1 {
     font-size: 14px;
     color: #c5c5c5;
 }
 
-.recipe-meta1 span {
+.health-meta1 span {
     padding: 0;
     margin: 0;
     display: grid;
 }
 
-.recipe-meta1 .author1 {
+.health-meta1 .author1 {
     font-size: 14px;
     margin-top: 21px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.recipe-meta1 .date1 {
+.health-meta1 .date1 {
     font-size: 12px;
     font-style: italic;
 }
 
-.recipe-meta1 .read-time {
+.health-meta1 .read-time {
     font-weight: normal;
 }
 
-.recipe-card {
+.health-card {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -448,8 +448,9 @@
     margin-right: 0px;
 }
 
-.recipe-card img {
+.health-card img {
     width: 139px;
+    height: 163px;
     border-top-left-radius: 14px;
     border-bottom-left-radius: 14px;
     object-fit: cover;
@@ -476,7 +477,7 @@
     border: 1px solid #0066ff;
 }
 
-.recipe-content h4 {
+.health-content h4 {
     font-size: 21px;
     margin-left: 16px;
 }
@@ -502,7 +503,7 @@
     background-color: #fff;
 }
 
-.recipe-meta {
+.health-meta {
     position: sticky;
     margin-top: 23px;
     margin-right: 10px;
@@ -511,13 +512,13 @@
     color: #c5c5c5;
 }
 
-.recipe-meta span {
+.health-meta span {
     padding: 0;
     margin: 0;
     display: grid;
 }
 
-.recipe-meta .author {
+.health-meta .author {
     position: sticky;
     font-size: 14px;
     margin-top: 21px;
@@ -525,12 +526,12 @@
     font-weight: bold;
 }
 
-.recipe-meta .date {
+.health-meta .date {
     font-size: 12px;
     font-style: italic;
 }
 
-.recipe-meta .read-time {
+.health-meta .read-time {
     font-weight: normal;
 }
 
