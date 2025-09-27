@@ -1917,7 +1917,7 @@ body {
     .stories-grid {
         display: grid;
         padding: 5px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .story-card1 {
@@ -2103,7 +2103,7 @@ body {
     .health-grid {
         display: grid;
         padding: 5px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .health-card1 {
@@ -2289,7 +2289,7 @@ body {
     .lifestyle-grid {
         display: grid;
         padding: 5px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .lifestyle-card1 {
@@ -2475,7 +2475,7 @@ body {
     .recipe-grid {
         display: grid;
         padding: 5px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .recipe-card1 {
@@ -3126,7 +3126,7 @@ body {
     .stories-grid {
         display: grid;
         padding: 19px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .story-card1 {
@@ -3312,7 +3312,7 @@ body {
     .health-grid {
         display: grid;
         padding: 19px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .health-card1 {
@@ -3498,7 +3498,7 @@ body {
     .lifestyle-grid {
         display: grid;
         padding: 19px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .lifestyle-card1 {
@@ -3684,7 +3684,7 @@ body {
     .recipe-grid {
         display: grid;
         padding: 19px;
-        margin: 20px -10px 0 0;
+        margin: 20px 0px 0 0;
     }
 
     .recipe-card1 {
@@ -12803,7 +12803,7 @@ body {
         flex: 2;
         display: grid;
         padding: 0px;
-        margin: 0 70px 0 0;
+        margin: 0 40px 0 0;
     }
 
     .story-card1 img {
@@ -12878,7 +12878,7 @@ body {
         transition: transform 0.3s ease;
         display: flex;
         border-radius: 14px;
-        margin: 19px 70px 0 0px;
+        margin: 19px 40px 0 0px;
     }
 
     .story-card img {
@@ -12989,7 +12989,7 @@ body {
         flex: 2;
         display: grid;
         padding: 0px;
-        margin: 0 70px 0 0;
+        margin: 0 40px 0 0;
     }
 
     .health-card1 img {
@@ -13064,7 +13064,7 @@ body {
         transition: transform 0.3s ease;
         display: flex;
         border-radius: 14px;
-        margin: 19px 70px 0 0px;
+        margin: 19px 40px 0 0px;
     }
 
     .health-card img {
@@ -13175,7 +13175,7 @@ body {
         flex: 2;
         display: grid;
         padding: 0px;
-        margin: 0 70px 0 0;
+        margin: 0 40px 0 0;
     }
 
     .lifestyle-card1 img {
@@ -13250,7 +13250,7 @@ body {
         transition: transform 0.3s ease;
         display: flex;
         border-radius: 14px;
-        margin: 19px 70px 0 0px;
+        margin: 19px 40px 0 0px;
     }
 
     .lifestyle-card img {
@@ -13361,7 +13361,7 @@ body {
         flex: 2;
         display: grid;
         padding: 0px;
-        margin: 0 70px 0 0;
+        margin: 0 40px 0 0;
     }
 
     .recipe-card1 img {
@@ -13436,7 +13436,7 @@ body {
         transition: transform 0.3s ease;
         display: flex;
         border-radius: 14px;
-        margin: 19px 70px 0 0px;
+        margin: 19px 40px 0 0px;
     }
 
     .recipe-card img {
