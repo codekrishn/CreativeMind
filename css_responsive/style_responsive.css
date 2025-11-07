@@ -1,0 +1,247 @@
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1280px) {
+    .hero-container {
+        height: 90vh;
+    }
+
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .main-image img {
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 32%;
+    }
+
+    .hero-container {
+        height: 73vh;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .main-image img {
+        height: 41vh;
+    }
+
+    .hero-buttons {
+        margin-left: 1vw;
+    }
+
+    .destinations-title h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .logo {
+        margin-right: 23%;
+        font-size: 1.7rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.7rem;
+    }
+
+    .main-image img {
+        height: 37vh;
+    }
+
+    .hero-buttons {
+        margin-left: .1vw;
+    }
+
+    .hero-buttons button {
+        padding: 9px 14px;
+        font-size: 19px;
+    }
+
+    .section-header {
+        display: grid;
+    }
+
+    .filter-tabs {
+        margin: 30px 0;
+    }
+
+    .main-content {
+        height: 170vh;
+    }
+
+    .main-content-details {
+        width: 100%;
+    }
+
+    .main-content-details img {
+        width: 100%;
+    }
+
+    .all-grid {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .hero-container {
+        height: 119vh;
+        display: grid;
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-buttons button {
+        padding: 9px 14px;
+        font-size: 21px;
+    }
+
+    .hero-images {
+        justify-content: center;
+    }
+
+    .hero-images img {
+        width: 30vw;
+    }
+
+    .main-image img {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-right: 14%;
+    }
+
+    .main-image img {
+        height: 41vh;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .logo {
+        margin-right: 5%;
+        font-size: 1.5rem;
+    }
+
+    .hero-content h1 {
+        margin-top: 19px;
+    }
+
+    .main-image img {
+        height: 37vh;
+    }
+
+    .hero-container {
+        height: 110vh;
+    }
+
+    .filter-tabs {
+        overflow: hidden;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .main-content-details img {
+        height: 41vh;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .logo {
+        padding: 3px 7px;
+        margin-right: 1%;
+        font-size: 1.3rem;
+    }
+
+    .hero-container {
+        height: 95vh;
+    }
+
+    .main-image img {
+        height: 32vh;
+    }
+
+    .main-content-details img {
+        height: 37vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search-container input {
+        margin: -37px;
+        padding-left: 46px;
+    }
+
+    .hero-buttons button {
+        padding: 9px 14px;
+        font-size: 16px;
+    }
+
+    .hero-container {
+        height: 100vh;
+    }
+
+    .hero-images img {
+        width: 37vw;
+    }
+
+    .main-image img {
+        height: 37vh;
+    }
+
+    .top-header h2 {
+        font-size: 1.7rem;
+    }
+
+    .main-content-details img {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main-image img {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .logo {
+        padding: 5px 7px;
+        font-size: .9rem;
+    }
+
+    .hero-container {
+        height: 107vh;
+    }
+
+    .top-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .main-content-details img {
+        height: 27vh;
+    }
+}
+
+@media screen and (max-width: 393px) {}
+
+@media screen and (max-width: 360px) {
+    .logo {
+        padding: 7px 7px;
+        font-size: .7rem;
+    }
+}

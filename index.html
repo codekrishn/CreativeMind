@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CreativeMind</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css_responsive/style_responsive.css">
     <link rel="shortcut icon" href="favicon/cm.png" type="image/x-icon">
 </head>
 
@@ -25,10 +26,14 @@
                 <li><a href="#lifestyle">Life Style</a></li>
                 <li><a href="#recipe">Recipe</a></li>
             </ul>
+
             <form action="/search" method="get" class="search-container">
                 <input type="search" id="search-query" name="q" placeholder="Enter your search" required>
                 <button type="submit">Search</button>
             </form>
+            <div class="sidebar">
+                <a href="#"><img src="img/icon/icon (1).png" alt="icon"></a>
+            </div>
         </div>
     </nav>
 
@@ -38,10 +43,11 @@
             <div class="hero-content">
                 <h1>Discover the World's <span class="highlight">Hidden</span> Wonders</h1>
                 <p class="hero-description">Embark on extraordinary journeys to breathtaking destinations around the
-                    globe. From ancient ruins to pristine beaches, uncover the planet's most spectacular hidden gems.
+                    globe. From ancient ruins to pristine beaches, uncover the planet's most spectacular hidden
+                    gems.
                 </p>
                 <div class="hero-buttons">
-                    <button class="btn-primary">Start Exploring</button>
+                    <button class="btn-primary1">Start Exploring</button>
                     <button class="btn-secondary">Watch Video</button>
                 </div>
             </div>
@@ -49,11 +55,13 @@
                 <div class="main-image">
                     <img src="img/krishna.jpg" alt="krishna">
                 </div>
-                <div class="secondary-image">
-                    <img src="img/krishna.jpg" alt="krishna">
-                </div>
-                <div class="secondary-image">
-                    <img src="img/krishna.jpg" alt="krishna">
+                <div class="left-image">
+                    <div class="secondary-image">
+                        <img src="img/krishna.jpg" alt="krishna">
+                    </div>
+                    <div class="secondary-image">
+                        <img src="img/krishna.jpg" alt="krishna">
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,14 +71,16 @@
     <section class="destinations" id="destinations">
         <div class="container">
             <div class="section-header">
-                <h2>Top Destinations</h2>
+                <div class="destinations-title">
+                    <h2>Top Destinations</h2>
+                </div>
                 <div class="filter-tabs">
                     <button class="tab active">Popular</button>
                     <button class="tab">New</button>
                     <button class="tab">Adventure</button>
                     <button class="tab">Culture</button>
                     <button class="tab">Beach</button>
-                    <button class="tab">Best Value</button>
+                    <button class="tab">Economics</button>
                 </div>
             </div>
             <div class="destinations-grid">
@@ -102,69 +112,93 @@
                         <p>Indian Ocean</p>
                     </div>
                 </div>
+                <div class="destination-card">
+                    <img src="img/krishna.jpg" alt="krishna">
+                    <div class="card-content">
+                        <h3>Maldives</h3>
+                        <p>Indian Ocean</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="img/krishna.jpg" alt="krishna">
+                    <div class="card-content">
+                        <h3>Maldives</h3>
+                        <p>Indian Ocean</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="img/krishna.jpg" alt="krishna">
+                    <div class="card-content">
+                        <h3>Maldives</h3>
+                        <p>Indian Ocean</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Latest Stories -->
-    <section class="stories" id="stories">
+    <section class="main-content" id="stories">
         <div class="container">
-            <div class="section-header">
+            <div class="top-header">
                 <h2>Latest Stories</h2>
                 <a href="stories.html" class="view-all">View all stories →</a>
             </div>
-            <div class="stories-grid">
-                <div class="story-card1">
+            <div class="all-grid">
+                <div class="main-content-details">
                     <img src="img/stories/stories (1).jpeg" alt="krishna">
-                    <div class="story-content-big">
-                        <span class="category-a">Travel Tips</span>
+                    <div class="main-content-big">
+                        <span class="main-left-category">Travel Tips</span>
                         <h3>10 Essential Travel Tips for First-Time Adventurers</h3>
                         <p>Discover the secrets to stress-free travel with our comprehensive guide for beginners.
                             Travelling" (with a double 'l') is the British English spelling for the activity of going
                             from one place American English standard for the same meaning.</p>
-                        <button class="see-more-btn">See More</button>
-                        <div class="story-meta1">
-                            <span class="author1">Sarah Johnson</span>
-                            <span class="date1">March 15, 2024</span>
+                        <div class="main-see-more-btn">
+                            <button>See More</button>
+                        </div>
+                        <div class="main-publication">
+                            <span class="main-author">Sarah Johnson</span>
+                            <span class="main-date">March 15, 2024</span>
                         </div>
                     </div>
                 </div>
                 <div class="img">
-                    <div class="story-card">
+                    <div class="one-card">
                         <img src="img/stories/stories (11).jpeg" alt="krishna">
-                        <div class="story-content">
-                            <span class="category">Culture</span>
+                        <div class="left-content">
+                            <span class="left-category">Culture</span>
                             <h4>Hidden Ancient Temples in Southeast Asia Indian Ancient Temples</h4>
-                            <div class="story-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 12, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="story-card">
+                    <div class="one-card">
                         <img src="img/stories/stories (6).jpeg" alt="krishna">
-                        <div class="story-content">
-                            <span class="category">Food</span>
-                            <h4>Street Food Adventures: A Culinary Journey</h4>
-                            <div class="story-meta">
+                        <div class="left-content">
+                            <span class="left-category">Food</span>
+                            <h4>Street Food Adventures: A Culinary Journey to our tablea</table>
+                            </h4>
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 10, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="story-card">
+                    <div class="one-card">
                         <img src="img/stories/stories (8).jpeg" alt="krishna">
-                        <div class="story-content">
-                            <span class="category">Budget</span>
+                        <div class="left-content">
+                            <span class="left-category">Budget</span>
                             <h4>Budget Travel: Maximum Adventure, Minimum Cost</h4>
-                            <div class="story-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 8, 2024</span>
                             </div>
                         </div>
                     </div>
                     <div class="button">
-                        <button class="see-more-btn1">See More</button>
+                        <button>See More</button>
                     </div>
                 </div>
             </div>
@@ -172,57 +206,59 @@
     </section>
 
     <!-- Health -->
-    <section class="health" id="health">
+    <section class="main-content" id="health">
         <div class="container">
-            <div class="section-header">
+            <div class="top-header">
                 <h2>Health</h2>
                 <a href="health.html" class="view-all">View all stories →</a>
             </div>
-            <div class="health-grid">
-                <div class="health-card1">
+            <div class="all-grid">
+                <div class="main-content-details">
                     <img src="img/health/health (8).jpeg" alt="krishna">
-                    <div class="health-content-big">
-                        <span class="category1">Travel Tips</span>
+                    <div class="main-content-big">
+                        <span class="main-left-category">Travel Tips</span>
                         <h3>10 Essential Travel Tips for First-Time Adventurers</h3>
                         <p>Discover the secrets to stress-free travel with our comprehensive guide for beginners.
                             Travelling" (with a double 'l') is the British English spelling for the activity of going
                             from one place American English standard for the same meaning.</p>
-                        <button class="see-more-btn">See More</button>
-                        <div class="health-meta1">
-                            <span class="author1">Sarah Johnson</span>
-                            <span class="date1">March 15, 2024</span>
+                        <div class="main-see-more-btn">
+                            <button>See More</button>
+                        </div>
+                        <div class="main-publication">
+                            <span class="main-author">Sarah Johnson</span>
+                            <span class="main-date">March 15, 2024</span>
                         </div>
                     </div>
                 </div>
                 <div class="img">
-                    <div class="health-card">
+                    <div class="one-card">
                         <img src="img/health/health (6).jpeg" alt="krishna">
-                        <div class="health-content">
-                            <span class="category">Culture</span>
+                        <div class="left-content">
+                            <span class="left-category">Culture</span>
                             <h4>Hidden Ancient Temples in Southeast Asia Indian Ancient Temples</h4>
-                            <div class="health-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 12, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="health-card">
+                    <div class="one-card">
                         <img src="img/health/health (10).jpeg" alt="krishna">
-                        <div class="health-content">
-                            <span class="category">Food</span>
+                        <div class="left-content">
+                            <span class="left-category">Food</span>
                             <h4>Street Food Adventures: A Culinary Journey</h4>
-                            <div class="health-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 10, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="health-card">
+                    <div class="one-card">
                         <img src="img/health/health (5).jpeg" alt="krishna">
-                        <div class="health-content">
-                            <span class="category">Budget</span>
+                        <div class="left-content">
+                            <span class="left-category">Budget</span>
                             <h4>Budget Travel: Maximum Adventure, Minimum Cost</h4>
-                            <div class="health-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 8, 2024</span>
                             </div>
@@ -237,57 +273,59 @@
     </section>
 
     <!-- Life Style -->
-    <section class="lifestyle" id="lifestyle">
+    <section class="main-content" id="lifestyle">
         <div class="container">
-            <div class="section-header">
+            <div class="top-header">
                 <h2>Life Style</h2>
                 <a href="lifestyle.html" class="view-all">View all stories →</a>
             </div>
-            <div class="lifestyle-grid">
-                <div class="lifestyle-card1">
+            <div class="all-grid">
+                <div class="main-content-details">
                     <img src="img/life_style/lifestyle (10).jpeg" alt="krishna">
-                    <div class="lifestyle-content-big">
-                        <span class="category1">Travel Tips</span>
+                    <div class="main-content-big">
+                        <span class="main-left-category">Travel Tips</span>
                         <h3>10 Essential Travel Tips for First-Time Adventurers</h3>
                         <p>Discover the secrets to stress-free travel with our comprehensive guide for beginners.
                             Travelling" (with a double 'l') is the British English spelling for the activity of going
                             from one place American English standard for the same meaning.</p>
-                        <button class="see-more-btn">See More</button>
-                        <div class="lifestyle-meta1">
-                            <span class="author1">Sarah Johnson</span>
-                            <span class="date1">March 15, 2024</span>
+                        <div class="main-see-more-btn">
+                            <button>See More</button>
+                        </div>
+                        <div class="main-publication">
+                            <span class="main-author">Sarah Johnson</span>
+                            <span class="main-date">March 15, 2024</span>
                         </div>
                     </div>
                 </div>
                 <div class="img">
-                    <div class="lifestyle-card">
+                    <div class="one-card">
                         <img src="img/life_style/lifestyle (3).jpeg" alt="krishna">
-                        <div class="lifestyle-content">
-                            <span class="category">Culture</span>
+                        <div class="left-content">
+                            <span class="left-category">Culture</span>
                             <h4>Hidden Ancient Temples in Southeast Asia Indian Ancient Temples</h4>
-                            <div class="lifestyle-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 12, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="lifestyle-card">
+                    <div class="one-card">
                         <img src="img/life_style/lifestyle (12).jpeg" alt="krishna">
-                        <div class="lifestyle-content">
-                            <span class="category">Food</span>
+                        <div class="left-content">
+                            <span class="left-category">Food</span>
                             <h4>Street Food Adventures: A Culinary Journey</h4>
-                            <div class="lifestyle-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 10, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="lifestyle-card">
+                    <div class="one-card">
                         <img src="img/life_style/lifestyle (1).jpeg" alt="krishna">
-                        <div class="lifestyle-content">
-                            <span class="category">Budget</span>
+                        <div class="left-content">
+                            <span class="left-category">Budget</span>
                             <h4>Budget Travel: Maximum Adventure, Minimum Cost</h4>
-                            <div class="lifestyle-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 8, 2024</span>
                             </div>
@@ -302,57 +340,59 @@
     </section>
 
     <!-- Recipe -->
-    <section class="recipe" id="recipe">
+    <section class="main-content" id="recipe">
         <div class="container">
-            <div class="section-header">
+            <div class="top-header">
                 <h2>Recipe</h2>
                 <a href="recipe.html" class="view-all">View all stories →</a>
             </div>
-            <div class="recipe-grid">
-                <div class="recipe-card1">
+            <div class="all-grid">
+                <div class="main-content-details">
                     <img src="img/recipe's/recipe (11).jpeg" alt="krishna">
-                    <div class="recipe-content-big">
-                        <span class="category1">Travel Tips</span>
+                    <div class="main-content-big">
+                        <span class="main-left-category">Travel Tips</span>
                         <h3>10 Essential Travel Tips for First-Time Adventurers</h3>
                         <p>Discover the secrets to stress-free travel with our comprehensive guide for beginners.
                             Travelling" (with a double 'l') is the British English spelling for the activity of going
                             from one place American English standard for the same meaning.</p>
-                        <button class="see-more-btn">See More</button>
-                        <div class="recipe-meta1">
-                            <span class="author1">Sarah Johnson</span>
-                            <span class="date1">March 15, 2024</span>
+                        <div class="main-see-more-btn">
+                            <button>See More</button>
+                        </div>
+                        <div class="main-publication">
+                            <span class="main-author">Sarah Johnson</span>
+                            <span class="main-date">March 15, 2024</span>
                         </div>
                     </div>
                 </div>
                 <div class="img">
-                    <div class="recipe-card">
+                    <div class="one-card">
                         <img src="img/recipe's/recipe (2).jpeg" alt="krishna">
-                        <div class="recipe-content">
-                            <span class="category">Culture</span>
+                        <div class="left-content">
+                            <span class="left-category">Culture</span>
                             <h4>Hidden Ancient Temples in Southeast Asia Indian Ancient Temples</h4>
-                            <div class="recipe-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 12, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="recipe-card">
+                    <div class="one-card">
                         <img src="img/recipe's/recipe (5).jpeg" alt="krishna">
-                        <div class="recipe-content">
-                            <span class="category">Food</span>
+                        <div class="left-content">
+                            <span class="left-category">Food</span>
                             <h4>Street Food Adventures: A Culinary Journey</h4>
-                            <div class="recipe-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 10, 2024</span>
                             </div>
                         </div>
                     </div>
-                    <div class="recipe-card">
+                    <div class="one-card">
                         <img src="img/recipe's/recipe (7).jpeg" alt="krishna">
-                        <div class="recipe-content">
-                            <span class="category">Budget</span>
+                        <div class="left-content">
+                            <span class="left-category">Budget</span>
                             <h4>Budget Travel: Maximum Adventure, Minimum Cost</h4>
-                            <div class="recipe-meta">
+                            <div class="left-publication">
                                 <span class="author">Sarah Johnson</span>
                                 <span class="date">March 8, 2024</span>
                             </div>
